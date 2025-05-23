@@ -36,7 +36,7 @@ DEPENDENCIES:
   - CapacitorNativeSettings (from `../../node_modules/capacitor-native-settings`)
   - "CapacitorSplashScreen (from `../../node_modules/@capacitor/splash-screen`)"
   - CordovaPlugins (from `../capacitor-cordova-ios-plugins`)
-  - MindlyStreamVideoCallCapacitor (from `../../../video-call-capacitor-plugin`)
+  - MindlyStreamVideoCallCapacitor (from `../../video-call-capacitor-plugin`)
 
 SPEC REPOS:
   trunk:
@@ -64,7 +64,7 @@ EXTERNAL SOURCES:
   CordovaPlugins:
     :path: "../capacitor-cordova-ios-plugins"
   MindlyStreamVideoCallCapacitor:
-    :path: "../../../video-call-capacitor-plugin"
+    :path: "../../video-call-capacitor-plugin"
 
 SPEC CHECKSUMS:
   Capacitor: 679f9673fdf30597493a6362a5d5bf233d46abc2
@@ -81,6 +81,6 @@ SPEC CHECKSUMS:
   StreamVideoSwiftUI: d09d72edf38455936e2086e9edf1eaaedf58b8eb
   SwiftProtobuf: b7aa08087e2ab6d162862d143020091254095f69
 
-PODFILE CHECKSUM: c812976aff8dea7388020722781b36232ab03917
+PODFILE CHECKSUM: fda045a8b1e31b75b2440d87d5bd4af17b2306f9
 
 COCOAPODS: 1.15.2
