@@ -80,7 +80,7 @@
     "@types/react-router-dom": "5.3.3",
     "@typescript-eslint/eslint-plugin": "5.62.0",
     "@typescript-eslint/parser": "5.62.0",
-    "@vitejs/plugin-react": "4.2.1",
+    "@vitejs/plugin-react": "4.5.0",
     "autoprefixer": "10.4.17",
     "chance": "1.1.11",
     "eslint": "8.57.0",
@@ -102,10 +102,10 @@
     "sass": "1.71.1",
     "tailwindcss": "3.4.1",
     "typescript": "5.3.3",
-    "vite": "4.5.2",
+    "vite": "6.3.5",
     "vite-plugin-checker": "0.6.4",
     "vite-plugin-progress": "0.0.7",
-    "vite-plugin-svgr": "4.2.0"
+    "vite-plugin-svgr": "4.3.0"
   },
   "description": "MindlyStreamTest",
   "author": "Mindly Europe OU",
