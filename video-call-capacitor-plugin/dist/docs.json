@@ -1,0 +1,228 @@
+{
+  "api": {
+    "name": "StreamVideoCallCapacitorPlugin",
+    "slug": "streamvideocallcapacitorplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "initializeVideoCall",
+        "signature": "(options: StreamVideoInitOptions) => Promise<void>",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "StreamVideoInitOptions"
+          }
+        ],
+        "returns": "Promise<void>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [
+          "StreamVideoInitOptions"
+        ],
+        "slug": "initializevideocall"
+      },
+      {
+        "name": "joinCall",
+        "signature": "(options: StreamVideoCallOptions) => Promise<void>",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "StreamVideoCallOptions"
+          }
+        ],
+        "returns": "Promise<void>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [
+          "StreamVideoCallOptions"
+        ],
+        "slug": "joincall"
+      },
+      {
+        "name": "addListener",
+        "signature": "<EventType extends StreamVideoCallEvents>(event: EventType, listenerFunc: (event: StreamVideoCallEventPayload[EventType]) => void) => Promise<PluginListenerHandle>",
+        "parameters": [
+          {
+            "name": "event",
+            "docs": "",
+            "type": "EventType"
+          },
+          {
+            "name": "listenerFunc",
+            "docs": "",
+            "type": "(event: StreamVideoCallEventPayload[EventType]) => void"
+          }
+        ],
+        "returns": "Promise<PluginListenerHandle>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [
+          "PluginListenerHandle",
+          "StreamVideoCallEvents",
+          "EventType",
+          "StreamVideoCallEventPayload"
+        ],
+        "slug": "addlistenereventtype-"
+      },
+      {
+        "name": "removeAllListeners",
+        "signature": "() => Promise<void>",
+        "parameters": [],
+        "returns": "Promise<void>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "removealllisteners"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [
+    {
+      "name": "StreamVideoInitOptions",
+      "slug": "streamvideoinitoptions",
+      "docs": "",
+      "tags": [],
+      "methods": [],
+      "properties": [
+        {
+          "name": "apiKey",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "string"
+        },
+        {
+          "name": "token",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "string"
+        },
+        {
+          "name": "preferredExtension",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "string"
+        },
+        {
+          "name": "user",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [
+            "UserInfo"
+          ],
+          "type": "UserInfo"
+        }
+      ]
+    },
+    {
+      "name": "UserInfo",
+      "slug": "userinfo",
+      "docs": "",
+      "tags": [],
+      "methods": [],
+      "properties": [
+        {
+          "name": "id",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "string"
+        },
+        {
+          "name": "name",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "string"
+        },
+        {
+          "name": "imageURL",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "string | undefined"
+        }
+      ]
+    },
+    {
+      "name": "StreamVideoCallOptions",
+      "slug": "streamvideocalloptions",
+      "docs": "",
+      "tags": [],
+      "methods": [],
+      "properties": [
+        {
+          "name": "callId",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "PluginListenerHandle",
+      "slug": "pluginlistenerhandle",
+      "docs": "",
+      "tags": [],
+      "methods": [],
+      "properties": [
+        {
+          "name": "remove",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "() => Promise<void>"
+        }
+      ]
+    },
+    {
+      "name": "StreamVideoCallEventPayload",
+      "slug": "streamvideocalleventpayload",
+      "docs": "",
+      "tags": [],
+      "methods": [],
+      "properties": [
+        {
+          "name": "callJoined",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "{ callId: string; userId: string; }"
+        },
+        {
+          "name": "callEnded",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "{ callId: string; }"
+        }
+      ]
+    }
+  ],
+  "enums": [],
+  "typeAliases": [
+    {
+      "name": "StreamVideoCallEvents",
+      "slug": "streamvideocallevents",
+      "docs": "",
+      "types": [
+        {
+          "text": "'callJoined'",
+          "complexTypes": []
+        },
+        {
+          "text": "'callEnded'",
+          "complexTypes": []
+        }
+      ]
+    }
+  ],
+  "pluginConfigs": []
+}
