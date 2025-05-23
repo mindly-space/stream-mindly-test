@@ -1,0 +1,29 @@
+version = 1
+
+test_patterns = ["*/test/**", "*/spec/**"]
+
+exclude_patterns = [
+  "public/**,",
+  "dist/**",
+  "build/**",
+  ".storybook/**",
+  "android/**",
+  "ios/**",
+  "docs/**",
+  "env/**"
+]
+
+[[analyzers]]
+name = "javascript"
+enabled = true
+
+  [analyzers.meta]
+  plugins = ["react"]
+  module_system = "es-modules"
+  environment = [
+    "nodejs",
+    "browser",
+    "jest"
+  ]
+  style_guide = "google"
+  dialect = "typescript"

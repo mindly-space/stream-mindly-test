@@ -1,0 +1,4 @@
+{
+  "extends": "./tsconfig.json",
+  "include": ["babel.config.js", "src/**/*", "notify_slack_deploy_finished.js", "notify_slack_deploy_started.js"]
+}

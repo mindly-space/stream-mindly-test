@@ -1,0 +1,34 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# NPM files
+npm-debug.log*
+yarn.lock
+node_modules/
+tmp/
+temp/
+
+# Log and tmp files
+*.log
+*.tmp
+*.tmp.*
+
+# Ignore OS and editor related files
+.DS_Store
+.idea
+.vscode
+
+# Development
+dir/
+.eslintcache
+build/
+
+# Testing
+.nyc_output/
+jest-coverage/
+coverage/
+reports/
+coverage.json
+
+# Misc
+.env.local
+.env.*.local

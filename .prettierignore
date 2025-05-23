@@ -1,0 +1,9 @@
+node_modules
+android
+.firebase
+.github
+ios
+public
+/capacitor-custom-plugins
+/coverage
+/jest-coverage

@@ -1,0 +1,86 @@
+PODS:
+  - Capacitor (6.1.2):
+    - CapacitorCordova
+  - CapacitorApp (6.0.1):
+    - Capacitor
+  - CapacitorBrowser (6.0.2):
+    - Capacitor
+  - CapacitorClipboard (6.0.1):
+    - Capacitor
+  - CapacitorCordova (6.1.2)
+  - CapacitorDevice (6.0.1):
+    - Capacitor
+  - CapacitorNativeSettings (6.0.1):
+    - Capacitor
+  - CapacitorSplashScreen (6.0.2):
+    - Capacitor
+  - CordovaPlugins (6.1.2):
+    - CapacitorCordova
+  - MindlyStreamVideoCallCapacitor (0.0.13):
+    - Capacitor
+    - StreamVideo (= 1.22.2)
+    - StreamVideoSwiftUI (= 1.22.2)
+  - StreamVideo (1.22.2):
+    - SwiftProtobuf (~> 1.29)
+  - StreamVideoSwiftUI (1.22.2):
+    - StreamVideo (= 1.22.2)
+  - SwiftProtobuf (1.29.0)
+
+DEPENDENCIES:
+  - "Capacitor (from `../../node_modules/@capacitor/ios`)"
+  - "CapacitorApp (from `../../node_modules/@capacitor/app`)"
+  - "CapacitorBrowser (from `../../node_modules/@capacitor/browser`)"
+  - "CapacitorClipboard (from `../../node_modules/@capacitor/clipboard`)"
+  - "CapacitorCordova (from `../../node_modules/@capacitor/ios`)"
+  - "CapacitorDevice (from `../../node_modules/@capacitor/device`)"
+  - CapacitorNativeSettings (from `../../node_modules/capacitor-native-settings`)
+  - "CapacitorSplashScreen (from `../../node_modules/@capacitor/splash-screen`)"
+  - CordovaPlugins (from `../capacitor-cordova-ios-plugins`)
+  - MindlyStreamVideoCallCapacitor (from `../../../video-call-capacitor-plugin`)
+
+SPEC REPOS:
+  trunk:
+    - StreamVideo
+    - StreamVideoSwiftUI
+    - SwiftProtobuf
+
+EXTERNAL SOURCES:
+  Capacitor:
+    :path: "../../node_modules/@capacitor/ios"
+  CapacitorApp:
+    :path: "../../node_modules/@capacitor/app"
+  CapacitorBrowser:
+    :path: "../../node_modules/@capacitor/browser"
+  CapacitorClipboard:
+    :path: "../../node_modules/@capacitor/clipboard"
+  CapacitorCordova:
+    :path: "../../node_modules/@capacitor/ios"
+  CapacitorDevice:
+    :path: "../../node_modules/@capacitor/device"
+  CapacitorNativeSettings:
+    :path: "../../node_modules/capacitor-native-settings"
+  CapacitorSplashScreen:
+    :path: "../../node_modules/@capacitor/splash-screen"
+  CordovaPlugins:
+    :path: "../capacitor-cordova-ios-plugins"
+  MindlyStreamVideoCallCapacitor:
+    :path: "../../../video-call-capacitor-plugin"
+
+SPEC CHECKSUMS:
+  Capacitor: 679f9673fdf30597493a6362a5d5bf233d46abc2
+  CapacitorApp: 0bc633b4eae40a1f32cd2834788fad3bc42da6a1
+  CapacitorBrowser: 83ec661a9ccd56c28a6851e4dd1ac33b181227ec
+  CapacitorClipboard: 756cd7e83e8d5d19b0c74f40b57517c287bd5fe2
+  CapacitorCordova: f48c89f96c319101cd2f0ce8a2b7449b5fb8b3dd
+  CapacitorDevice: 7097a1deb4224b77fd13a6e60a355d0062a5d772
+  CapacitorNativeSettings: 1ce5585ff07b161616cd0a795702637316677af2
+  CapacitorSplashScreen: 250df9ef8014fac5c7c1fd231f0f8b1d8f0b5624
+  CordovaPlugins: 6636f4c58f1aef4d803c6ff3e8344eb39c00ba68
+  MindlyStreamVideoCallCapacitor: 20a454bb1000fd6f16dcd70ef03c63601c0847cc
+  StreamVideo: 176ea9d1d6e1cc1d709074a9e6c0626bf279cbd3
+  StreamVideoSwiftUI: d09d72edf38455936e2086e9edf1eaaedf58b8eb
+  SwiftProtobuf: b7aa08087e2ab6d162862d143020091254095f69
+
+PODFILE CHECKSUM: c812976aff8dea7388020722781b36232ab03917
+
+COCOAPODS: 1.15.2

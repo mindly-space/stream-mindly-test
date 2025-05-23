@@ -1,0 +1,3 @@
+node_modules/
+src/modals/availabilities
+src/redux/*/*.test.ts
